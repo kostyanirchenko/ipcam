@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="util.Test" table="user" catalog="testing">
+        <id name="userId" type="java.lang.Integer">
+            <column name="userId" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="username" length="255" not-null="true" unique="true" />
+        </property>
+    </class>
+</hibernate-mapping>
