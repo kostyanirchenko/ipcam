@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="MySQL - testing@localhost" uuid="cb229a6d-469c-4fb1-aa21-f14186ffc0b7">
-    <database-info product="MySQL" version="5.7.10-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
-    </database-info>
-    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
-    <schema name="" catalog="testing"/>
-    <table name="answers" schema="" catalog="testing" type="TABLE">
-      <column name="answersId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="firstAnswer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="secondAnswer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="thirdAnswer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="fourthAnswer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="rightAnswer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="questionId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="answersId"/>
-    </table>
-    <table name="completedtests" schema="" catalog="testing" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="userIP" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="testTime" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="wrongAnswerCount" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="rightAnswerCount" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="score" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="percent" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
-    <table name="questions" schema="" catalog="testing" type="TABLE">
-      <column name="questionId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="questionText" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="questionId"/>
-    </table>
-    <table name="user" schema="" catalog="testing" type="TABLE">
-      <column name="userId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="userId"/>
-    </table>
-    <table name="usergroups" schema="" catalog="testing" type="TABLE">
-      <column name="groupId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="name" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="groupId"/>
-    </table>
-    <table name="users" schema="" catalog="testing" type="TABLE">
-      <column name="userId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="username" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12"/>
-      <column name="password" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12"/>
-      <column name="groupId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="userId"/>
-      <index name="username_UNIQUE" unique="true" columns="username"/>
-    </table>
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
 </component>
